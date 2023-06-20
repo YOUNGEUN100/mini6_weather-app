@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'SUITE-Regular';
+}
+
+.today {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.input_group {
+  margin-bottom: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.input_group input {
+  width: 150px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: x-large;
+}
+
+.input_group button {
+  width: 60px;
+  height: 35px;
+  font-family: 'SUITE-Regular';
+}
+
+.input_group button:hover {
+  background-color: aquamarine;
+  border-color: aquamarine;
+}
+
+.info {
+  /* border: 1px solid blue; */
+  font-size: large;
+}
+
+.info div {
+  margin-bottom: 0.5rem;
+}
+
+.msg {
+  color:red;
+}
+
