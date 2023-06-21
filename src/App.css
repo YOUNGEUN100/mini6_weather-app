@@ -4,7 +4,16 @@
   padding: 2rem;
   text-align: center;
   font-family: 'SUITE-Regular';
+  /* border: 1px solid red; */
 }
+
+.app {
+  border: 1px solid #218c74;
+  background-color: #218c74;
+  border-radius: 20px;
+  color: white;
+}
+
 
 .today {
   font-size: 1.5rem;
@@ -24,17 +33,24 @@
   height: 30px;
   padding-left: 10px;
   font-size: x-large;
+  border-radius: 5px;
+  border: 1px solid #f7f1e3;
+  background-color: #f7f1e3;
 }
 
 .input_group button {
+  cursor: pointer;
   width: 60px;
   height: 35px;
   font-family: 'SUITE-Regular';
+  border: 1px solid #aaa69d;
+  border-radius: 5px;
+  background-color:#aaa69d;
 }
 
 .input_group button:hover {
-  background-color: aquamarine;
-  border-color: aquamarine;
+  background-color: #33d9b2;
+  border-color: #33d9b2;
 }
 
 .info {
@@ -46,7 +62,15 @@
   margin-bottom: 0.5rem;
 }
 
+.des {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .msg {
-  color:red;
+  color:yellow;
+  margin-bottom: 1rem;
 }
 
