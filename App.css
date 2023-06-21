@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'SUITE-Regular';
+  /* border: 1px solid red; */
+}
+
+.app {
+  margin: 2rem auto;
+  max-width: 500px;
+  border: 1px solid #218c74;
+  background-color: #218c74;
+  border-radius: 20px;
+  color: white;
+}
+
+
+.today {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.input_group {
+  margin-bottom: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.input_group input {
+  width: 150px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: x-large;
+  border-radius: 5px;
+  border: 1px solid #f7f1e3;
+  background-color: #f7f1e3;
+}
+
+.input_group button {
+  cursor: pointer;
+  width: 60px;
+  height: 35px;
+  font-family: 'SUITE-Regular';
+  border: 1px solid #aaa69d;
+  border-radius: 5px;
+  background-color:#aaa69d;
+}
+
+.input_group button:hover {
+  background-color: #33d9b2;
+  border-color: #33d9b2;
+}
+
+.info {
+  /* border: 1px solid blue; */
+  font-size: large;
+}
+
+.info div {
+  margin-bottom: 0.5rem;
+}
+
+.des {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msg {
+  color:yellow;
+  margin-bottom: 1rem;
+}
+
