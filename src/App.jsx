@@ -5,9 +5,12 @@ import Info from './components/Info';
 import Today from './components/Today';
 
 function App() {
+  const API_KEY = import.meta.env.VITE_API_KEY;
+
   const [location, setLocation] = useState("");
   const [weather, setWeather] = useState(null);
   const [message, setMessage] = useState("");
+ // const [image, setImage] = useState("");
 
   const handleLocationChange = (e) => {
     setLocation(e.target.value);
@@ -15,7 +18,7 @@ function App() {
   };  
 
   const fetchWeather = () => {
-    const apiKey = "c406a836c908fbabe51c3a9c820d2872";
+    const apiKey = API_KEY;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&lang=kr`;
 
     fetch(url)
@@ -30,6 +33,8 @@ function App() {
         console.log(weather);
       });
   };
+
+  
 
   const handleWeatherSearch = (e) => {
     e.preventDefault();
