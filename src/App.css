@@ -8,6 +8,8 @@
 }
 
 .app {
+  margin: 2rem auto;
+  max-width: 500px;
   border: 1px solid #218c74;
   background-color: #218c74;
   border-radius: 20px;
