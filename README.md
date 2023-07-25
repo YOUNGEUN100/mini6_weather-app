@@ -6,7 +6,7 @@
 -- mobile
 <img src="https://github.com/YOUNGEUN100/wise-saying-app/assets/121986519/61897bca-430f-4f51-96cb-ac9d2d33b6c5">
 ## homepage
-- https://incandescent-elf-f6ce17.netlify.app/
+- [https://incandescent-elf-f6ce17.netlify.app/](https://chimerical-sprinkles-317cc1.netlify.app/)
 ## 기능
 - 명언 텍스트가 5초마다 변경됨
 - 요일-월-일 표시
